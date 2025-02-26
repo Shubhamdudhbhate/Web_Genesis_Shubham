@@ -1,6 +1,7 @@
 body{
     background-color: lightgrey;
     padding: 0%;
+    display: flex;
     margin: 0%;
 }
 
@@ -118,4 +119,57 @@ a {
 a:hover {
     text-decoration: underline;
     color: #483d8b; /* Thoda darker purple */
+}
+/* Center the container */
+#container {
+    width: 350px; /* Adjust width as needed */
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+/* Center the entire page */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+/* Center the input fields */
+.input-group {
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#btn1 {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btn1:hover {
+    background-color: #0056b3;
 }
